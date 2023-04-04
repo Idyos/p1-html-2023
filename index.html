@@ -1,13 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/content.css" />
+    <script src="redirects.js"></script>
     <title>Curriculum</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav>
+      <div class="vertical">
+        <div class="hamburguer">
+          <div class="hamLine top"></div>
+          <div class="hamLine middle"></div>
+          <div class="hamLine bottom end"></div>
+        </div>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/javigauxachsmonserrat/">
+            <i
+              class="fa fa-linkedin socialIcon"
+              style="font-size: 33px; color: #ce6868"
+            ></i
+          ></a>
+          <a href="https://github.com/Idyos">
+            <i
+              class="fa fa-github socialIcon"
+              style="font-size: 33px; color: #ce6868"
+            ></i>
+          </a>
+          <a href="https://twitter.com/javiGAMO_">
+            <i
+              class="fa fa-twitter socialIcon"
+              style="font-size: 33px; color: #ce6868"
+            ></i>
+          </a>
+        </div>
+      </div>
+      <div class="horizontal">
+        <h1 style="font-weight: 500;
+        font-size: 15px;margin-left: 50px">Javi Gauxachs</h1>
+        <a style="text-decoration: none;" href="https://www.virginiaorosa.com/">
+        <h3 class="replicaTexto">Réplica de Virginia Orosa</h3>
+        </a>
+        <div onclick="goToPortfolio()" class="contactButton">
+          <h1 class="text">CONTACT</h1>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="part1">
+        <div class="informationContainer">
+          <div class="information">
+            <h1 class="titles">
+              <span class="title">Visual &</span>
+              <span class="title">Interaction</span>
+              <span class="title designer">Designer</span>
+            </h1>
+            <div class="desc">
+              <p>
+                I design brand identities, mobile app UI & UX, design systems,
+                websites and graphic design for advertising.
+              </p>
+              <br /><br />
+              <p>
+                My favourite tools for design and prototyping are Adobe XD,
+                Figma, Webflow, Illustrator and Photoshop.
+              </p>
+            </div>
+            <div class="moreButton" onclick="goToPortfolio()">
+              <p class="text">MORE ABOUT ME</p>
+              <i
+              class="fa fa-arrow-right"
+              style="    font-size: 20px;
+              transform: rotate(-45deg);
+              color: #ce6868;
+              margin-left: 10px;"
+            ></i
+          >
+            </div>
+          </div>
+        </div>
+        <div class="marcas"><h1>TEEEEEEEEEEEEEEST</h1></div>
+      </div>
+      <div class="part2">
+        <div class="informationContainer">
+          <div class="information">
+            <h1 class="titles">
+              <span class="title">Portfolio</span>
+            </h1>
+            <div class="desc">
+              <p>
+                Here are some case studies including the design process behind them.
+              </p>
+              <br /><br />
+              <p>
+                Or you can explore a more visual gallery with a variety of different projects on the link below.
+              </p>
+            </div>
+            <div class="moreButton" onclick="goToPortfolio()">
+              <p class="text">VISUAL GALLERY</p>
+              <i
+              class="fa fa-arrow-right"
+              style="    font-size: 20px;
+              transform: rotate(-45deg);
+              color: #ce6868;
+              margin-left: 10px;"
+            ></i
+          >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

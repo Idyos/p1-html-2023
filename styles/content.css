@@ -1,0 +1,153 @@
+.content{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+
+/* ----------------------------------------------------------------- PART 1 ----------------------------------------------------------------- */
+
+.content .part1{
+    width: -webkit-calc(100% - 80px);
+    width:    -moz-calc(100% - 80px);
+    width:         calc(100% - 80px);
+    border: solid #ce6868;
+    border-width: 0px 0px 1px 0px;
+    display: flex;
+}
+
+.content .part1 .informationContainer{
+    padding: 60px;
+    border: solid #ce6868;
+    border-width: 0px 1px 0px 0px;
+    width: 75%;
+}
+
+
+.content .part1 .informationContainer .information{
+    width: 45%;
+}
+.content .part1 .informationContainer .information .titles{
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.content .part1 .informationContainer .information .desc{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content .part1 .informationContainer .information .moreButton{
+    font-weight: 700;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 170px;
+    height: 31px;
+    border-width: 0px 0px 4px 0px;
+    font-size: 16px;
+    transition: 0.2s ease-in-out;
+}
+
+.content .part1 .informationContainer .information .moreButton:hover{
+    width: 210px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.content .part1 .informationContainer .information .moreButton:hover > .text{
+    opacity: 0.8;
+    transform: 0.2 ease-in-out;
+}
+
+.moreButton .text{
+    text-align: right;
+    transform: 0.2 ease-in-out;
+}
+
+.title{
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+
+.title.designer{
+    color: #ffece8;    
+    text-shadow: 4px 4px 13px #ce6868;
+
+}
+
+.content .part1 .marcas {
+    width: 40%;
+    height: 100%;
+}
+
+.fa {
+    font-size: 2em;
+  }
+
+
+/* ----------------------------------------------------------------- PART 2 ----------------------------------------------------------------- */
+
+
+.content .part2{
+    width: -webkit-calc(100% - 80px);
+    width:    -moz-calc(100% - 80px);
+    width:         calc(100% - 80px);
+    border: solid #ce6868;
+    border-width: 0px 0px 1px 0px;
+}
+
+.content .part2 .informationContainer{
+    padding: 60px;
+    border: solid #ce6868;
+    border-width: 0px 1px 0px 0px;
+}
+
+
+.content .part2 .informationContainer .information{
+    width: 45%;
+}
+.content .part2 .informationContainer .information .titles{
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.content .part2 .informationContainer .information .desc{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content .part2 .informationContainer .information .moreButton{
+    font-weight: 700;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 180px;
+    height: 31px;
+    border-width: 0px 0px 4px 0px;
+    font-size: 16px;
+    transition: 0.2s ease-in-out;
+}
+
+.content .part2 .informationContainer .information .moreButton:hover{
+    width: 220px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.content .part2 .informationContainer .information .moreButton:hover > .text{
+    opacity: 0.8;
+    transform: 0.2 ease-in-out;
+}
+
+
+.moreButton .text{
+    text-align: right;
+}
