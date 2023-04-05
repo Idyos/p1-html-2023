@@ -5,6 +5,7 @@ footer{
     height: 110px;
     justify-content: center;
     align-items: center;
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);;
 }
 
 footer p {

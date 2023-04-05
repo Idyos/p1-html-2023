@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 500px;
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);;
 }
 
 

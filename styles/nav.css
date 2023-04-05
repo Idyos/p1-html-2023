@@ -15,6 +15,7 @@ nav .horizontal{
     border-width: 0px 0px 1px 0px;
     justify-content: space-between;
     align-items: center;
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);
 }
 
 nav .horizontal .replicaTexto{
@@ -27,6 +28,14 @@ nav .horizontal .replicaTexto:hover{
     transition: 0.4s cubic-bezier(0.64, -0.4, 0.4, 1.47);
 }
 
+
+/* VERTICAL */
+
+.extended{
+    width: 300px !important;
+    transition: 0.5s ease-in-out;
+}
+
 nav .vertical{
     z-index: 2;
     display: flex;
@@ -37,10 +46,62 @@ nav .vertical{
     border: solid #ce6868;
     border-width: 0px 1px 0px 0px;
     width: 80px;
-
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);
 }
 
+.ApartadosHidden{
+    transform: translate(-220px);
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);
+}
+
+nav .vertical .apartados{
+    margin-left: 35px;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    top: -110px;
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);
+}
+
+.apartado{
+    letter-spacing: -1px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    transform-origin: left center;
+    transition: 0.2s ease-in-out;
+}
+
+.apartadoContainer:hover{
+    cursor: pointer;
+}
+
+.apartadoContainer:hover .apartado {
+    transform: translate(50px);
+    transition: 0.2s ease-in-out;
+}
+
+.apartado:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    width: 0%;
+    height: 1px;
+    background-color: #ce6868;
+    transition: 0.2s ease-in-out;
+  }
+  
+
+  .apartadoContainer:hover .apartado:before {
+    width: 10%;
+    transform: translate(-50px);
+}
+
+
 nav .vertical .hamburguer{
+    width: 30px;
     padding: 29px 25px 29px 25px;
     transition: 0.3s ease-in-out;
 }
@@ -49,17 +110,17 @@ nav .vertical .hamburguer:hover{
     transition: 0.3s ease-in-out;
 }
 
-nav .vertical .hamburguer:hover > .hamLine.top{
+nav .vertical .hamburguer .hamLine.top{
     transform-origin: left;
     transform: rotate(45deg);
     transition: 0.3s ease-in-out;
 }
-nav .vertical .hamburguer:hover > .hamLine.bottom{
+nav .vertical .hamburguer .hamLine.bottom{
     transform-origin: left;
     transform: rotate(-45deg);
     transition: 0.3s ease-in-out;
 }
-nav .vertical .hamburguer:hover > .hamLine.middle{
+nav .vertical .hamburguer .hamLine.middle{
     opacity: 0;
     transition: 0.3s ease-in-out;
 }

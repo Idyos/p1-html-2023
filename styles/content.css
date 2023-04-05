@@ -7,13 +7,21 @@
 
 /* ----------------------------------------------------------------- PART 1 ----------------------------------------------------------------- */
 
+.pextended{
+    transform: translate(220px);
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);;
+}
+
 .content .part1{
+    position: relative;
+    z-index: -1;
     width: -webkit-calc(100% - 80px);
     width:    -moz-calc(100% - 80px);
     width:         calc(100% - 80px);
     border: solid #ce6868;
     border-width: 0px 0px 1px 0px;
     display: flex;
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);;
 }
 
 .content .part1 .informationContainer{

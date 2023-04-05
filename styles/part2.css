@@ -7,6 +7,9 @@
     border-width: 0px 0px 1px 0px;
     padding: 90px;
     padding-left: 150px;
+    transition: 0.5s cubic-bezier(0.13, 0.43, 0.57, 1);
+    position: relative;
+    z-index: -1;
 }
 
 .content .part2 .informationContainer{
