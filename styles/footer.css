@@ -1,0 +1,12 @@
+footer{
+    border: solid #ce6868;
+    border-width: 1px 0px 0px 0px;
+    display: flex;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 12px;
+}
